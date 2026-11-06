@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="daySky1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#BAE6FD" />
+      <stop offset="55%" stop-color="#E0F2FE" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="sunGlow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF9C3" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#BAE6FD" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="glassDay1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.28" />
+      <stop offset="50%" stop-color="#E0F2FE" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#0369A1" stop-opacity="0.35" />
+    </linearGradient>
+    <linearGradient id="poolDay1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="teakWood1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9A5B25" />
+      <stop offset="50%" stop-color="#B46E33" />
+      <stop offset="100%" stop-color="#7C461B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bright Morning Sky -->
+  <rect width="1200" height="800" fill="url(#daySky1)" />
+  <circle cx="950" cy="140" r="240" fill="url(#sunGlow1)" />
+
+  <!-- Soft Distant Hills & Greenery -->
+  <path d="M0 490 Q320 430 680 475 T1200 455 L1200 580 L0 580 Z" fill="#D1FAE5" opacity="0.65" />
+  <path d="M0 520 Q420 480 860 515 T1200 500 L1200 590 L0 590 Z" fill="#A7F3D0" opacity="0.7" />
+
+  <!-- Tropical Trees Left & Right -->
+  <circle cx="115" cy="435" r="75" fill="#10B981" opacity="0.85" />
+  <circle cx="165" cy="455" r="55" fill="#059669" opacity="0.9" />
+  <circle cx="1075" cy="425" r="85" fill="#10B981" opacity="0.85" />
+  <circle cx="1015" cy="455" r="65" fill="#059669" opacity="0.9" />
+
+  <!-- Stone Courtyard Deck -->
+  <polygon points="0,560 1200,560 1200,800 0,800" fill="#F1F5F9" />
+  <polygon points="90,560 1110,560 1200,665 0,665" fill="#E2E8F0" />
+
+  <!-- Ground Floor Limestone & Travertine Volume -->
+  <polygon points="180,350 760,330 760,565 180,565" fill="#FFFFFF" />
+  <polygon points="760,330 1030,365 1030,565 760,565" fill="#E2E8F0" />
+
+  <!-- Ground Floor Living Room Glass -->
+  <polygon points="340,365 735,350 735,550 340,550" fill="#0F172A" />
+  <polygon points="348,372 535,365 535,542 348,542" fill="url(#glassDay1)" />
+  <polygon points="545,365 726,358 726,542 545,542" fill="url(#glassDay1)" />
+  <!-- Interior Subtle Daylight Curtains & Sofa Silhouette -->
+  <rect x="360" y="375" width="32" height="165" fill="#FFFFFF" opacity="0.7" />
+  <rect x="420" y="495" width="160" height="36" rx="6" fill="#CBD5E1" />
+  <rect x="615" y="485" width="75" height="46" rx="6" fill="#94A3B8" />
+
+  <!-- Carport & Stone Pillar on Right -->
+  <polygon points="790,395 1000,415 1000,560 790,560" fill="#334155" />
+  <polygon points="755,330 785,333 785,565 755,565" fill="#F8FAFC" />
+
+  <!-- Second Floor Cantilevered Modern Box -->
+  <polygon points="150,155 775,120 1055,195 775,175" fill="#F8FAFC" />
+  <polygon points="165,165 775,130 775,342 165,362" fill="#FFFFFF" />
+  <polygon points="775,130 1045,198 1045,375 775,342" fill="#E2E8F0" />
+
+  <!-- Cantilever Underside Warm Teak Soffit -->
+  <polygon points="150,155 775,120 775,134 150,168" fill="#0F766E" />
+  <polygon points="775,120 1055,195 1055,206 775,134" fill="#115E59" />
+
+  <!-- Upper Floor Teak Wood Architectural Slat Screen -->
+  <polygon points="195,182 435,170 435,332 195,342" fill="url(#teakWood1)" />
+  <g stroke="#5C3414" stroke-width="3" opacity="0.65">
+    <line x1="215" y1="181" x2="215" y2="341" />
+    <line x1="235" y1="180" x2="235" y2="340" />
+    <line x1="255" y1="179" x2="255" y2="339" />
+    <line x1="275" y1="178" x2="275" y2="338" />
+    <line x1="295" y1="177" x2="295" y2="337" />
+    <line x1="315" y1="176" x2="315" y2="336" />
+    <line x1="335" y1="175" x2="335" y2="335" />
+    <line x1="355" y1="174" x2="355" y2="334" />
+    <line x1="375" y1="173" x2="375" y2="333" />
+    <line x1="395" y1="172" x2="395" y2="332" />
+    <line x1="415" y1="171" x2="415" y2="332" />
+  </g>
+
+  <!-- Upper Floor Panorama Glass Suite -->
+  <polygon points="455,168 750,150 750,322 455,332" fill="#0F172A" />
+  <polygon points="463,175 605,167 605,316 463,324" fill="url(#glassDay1)" />
+  <polygon points="613,166 742,158 742,312 613,316" fill="url(#glassDay1)" />
+
+  <!-- Upper Floor Right Wing Corner Window -->
+  <polygon points="795,165 1015,218 1015,345 795,320" fill="#0F172A" />
+  <polygon points="803,174 1007,223 1007,338 803,314" fill="url(#glassDay1)" />
+
+  <!-- Glass Balcony Railing -->
+  <polygon points="445,285 765,275 765,332 445,342" fill="#BAE6FD" opacity="0.35" />
+  <line x1="445" y1="285" x2="765" y2="275" stroke="#0284C7" stroke-width="3" />
+
+  <!-- Foreground Turquoise Swimming Pool -->
+  <polygon points="190,610 920,610 1030,785 80,785" fill="#FFFFFF" />
+  <polygon points="215,622 895,622 995,775 115,775" fill="url(#poolDay1)" />
+  <!-- Pool Water Sunlight Ripples -->
+  <line x1="260" y1="665" x2="540" y2="665" stroke="#E0F2FE" stroke-width="3" opacity="0.65" />
+  <line x1="450" y1="710" x2="820" y2="710" stroke="#E0F2FE" stroke-width="2.5" opacity="0.55" />
+  <line x1="310" y1="745" x2="690" y2="745" stroke="#BAE6FD" stroke-width="3" opacity="0.6" />
+
+  <!-- Poolside Lounge Planter -->
+  <rect x="130" y="542" width="180" height="32" rx="6" fill="#CBD5E1" />
+  <circle cx="165" cy="532" r="24" fill="#10B981" />
+  <circle cx="215" cy="528" r="28" fill="#059669" />
+  <circle cx="265" cy="534" r="22" fill="#10B981" />
+</svg>

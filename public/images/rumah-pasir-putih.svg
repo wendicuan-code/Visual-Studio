@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="daySky4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#BAE6FD" />
+      <stop offset="65%" stop-color="#F0F9FF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="glassDay4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#E0F2FE" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.35" />
+    </linearGradient>
+    <linearGradient id="lawnDay4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#daySky4)" />
+  <circle cx="940" cy="140" r="190" fill="#FEF9C3" opacity="0.75" />
+
+  <!-- Lush Corner Hook Garden Trees -->
+  <circle cx="150" cy="450" r="95" fill="#10B981" opacity="0.9" />
+  <circle cx="240" cy="480" r="75" fill="#059669" />
+  <circle cx="1055" cy="445" r="90" fill="#10B981" opacity="0.9" />
+  <circle cx="975" cy="475" r="70" fill="#059669" />
+
+  <!-- Modern Pitched & Flat Roof Hook Residence -->
+  <polygon points="230,220 560,115 920,220" fill="#0F766E" />
+  <polygon points="560,115 920,220 970,220 580,105" fill="#115E59" />
+
+  <!-- Left Wing Facade -->
+  <polygon points="260,220 650,185 650,565 260,565" fill="#FFFFFF" />
+  <!-- Right Wing Corner Hook Facade -->
+  <polygon points="650,185 950,235 950,565 650,565" fill="#F1F5F9" />
+
+  <!-- Second Floor Corner Windows & Balcony -->
+  <polygon points="310,235 610,210 610,350 310,365" fill="#0F172A" />
+  <polygon points="318,242 602,218 602,342 318,358" fill="url(#glassDay4)" />
+  <polygon points="685,215 910,252 910,365 685,350" fill="#0F172A" />
+  <polygon points="693,222 902,258 902,358 693,342" fill="url(#glassDay4)" />
+
+  <!-- Balcony Glass & Warm Wood Trim -->
+  <polygon points="245,355 660,338 960,362 960,378 660,355 245,372" fill="#B46E33" />
+
+  <!-- Ground Floor Living Room & Hook Side Garden Doors -->
+  <rect x="310" y="400" width="290" height="165" fill="url(#glassDay4)" stroke="#0284C7" stroke-width="4" />
+  <rect x="690" y="410" width="215" height="155" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="3" />
+
+  <!-- Bright Green Lawn & Stone Driveway -->
+  <rect x="0" y="565" width="1200" height="235" fill="url(#lawnDay4)" />
+  <polygon points="540,565 920,565 1100,800 440,800" fill="#F8FAFC" />
+  <line x1="650" y1="565" x2="610" y2="800" stroke="#CBD5E1" stroke-width="3" />
+  <line x1="810" y1="565" x2="890" y2="800" stroke="#CBD5E1" stroke-width="3" />
+</svg>

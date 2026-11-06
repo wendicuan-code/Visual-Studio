@@ -9,6 +9,7 @@
   },
   "private": true,
   "dependencies": {
+    "@google/genai": "^3.0.0",
     "@huggingface/transformers": "^4.3.2",
     "@remotion/bundler": "4.0.540",
     "@remotion/captions": "4.0.540",
@@ -46,8 +47,9 @@
     "vite": "^7.3.7"
   },
   "scripts": {
-    "dev": "concurrently -k -n api,web \"npm:dev:api\" \"npm:dev:web\"",
-    "build": "vite build && remotion bundle",
+    "dev": "tsx server/index.ts",
+    "start": "tsx server/index.ts",
+    "build": "vite build",
     "upgrade": "remotion upgrade",
     "lint": "eslint src app shared server && tsc",
     "studio": "remotion studio",

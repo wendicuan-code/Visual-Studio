@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="kosDaySky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#BAE6FD" />
+      <stop offset="65%" stop-color="#F0F9FF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="roomWindowDay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE" />
+      <stop offset="100%" stop-color="#7DD3FC" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#kosDaySky)" />
+  <circle cx="190" cy="135" r="150" fill="#FEF9C3" opacity="0.8" />
+
+  <!-- Courtyard & Tropical Trees -->
+  <circle cx="95" cy="495" r="70" fill="#10B981" />
+  <circle cx="1115" cy="495" r="75" fill="#059669" />
+  <polygon points="0,600 1200,600 1200,800 0,800" fill="#E2E8F0" />
+
+  <!-- 2-Story Modern Boarding House (Kos Eksklusif 10 Kamar) -->
+  <polygon points="130,175 1070,175 1030,120 170,120" fill="#0F766E" />
+  <rect x="150" y="175" width="900" height="425" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3" />
+
+  <!-- Central Breezeway Staircase Core -->
+  <rect x="545" y="175" width="110" height="425" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2" />
+  <rect x="565" y="205" width="70" height="175" rx="6" fill="url(#roomWindowDay)" stroke="#0284C7" stroke-width="3" />
+  <rect x="565" y="425" width="70" height="175" fill="#0F766E" />
+
+  <!-- Upper Floor 5 Ensuite Rooms + Balcony -->
+  <g>
+    <rect x="190" y="220" width="140" height="125" rx="6" fill="url(#roomWindowDay)" stroke="#0284C7" stroke-width="3" />
+    <rect x="365" y="220" width="140" height="125" rx="6" fill="url(#roomWindowDay)" stroke="#0284C7" stroke-width="3" />
+    <rect x="695" y="220" width="140" height="125" rx="6" fill="url(#roomWindowDay)" stroke="#0284C7" stroke-width="3" />
+    <rect x="870" y="220" width="140" height="125" rx="6" fill="url(#roomWindowDay)" stroke="#0284C7" stroke-width="3" />
+  </g>
+
+  <!-- Upper Floor Balcony Railing -->
+  <rect x="145" y="345" width="910" height="36" fill="#BAE6FD" opacity="0.45" />
+  <line x1="145" y1="345" x2="1055" y2="345" stroke="#0F766E" stroke-width="5" />
+  <rect x="140" y="381" width="920" height="16" fill="#0F766E" />
+
+  <!-- Ground Floor 5 Ensuite Rooms -->
+  <g>
+    <rect x="190" y="430" width="140" height="140" rx="6" fill="url(#roomWindowDay)" stroke="#0284C7" stroke-width="3" />
+    <rect x="365" y="430" width="140" height="140" rx="6" fill="url(#roomWindowDay)" stroke="#0284C7" stroke-width="3" />
+    <rect x="695" y="430" width="140" height="140" rx="6" fill="url(#roomWindowDay)" stroke="#0284C7" stroke-width="3" />
+    <rect x="870" y="430" width="140" height="140" rx="6" fill="url(#roomWindowDay)" stroke="#0284C7" stroke-width="3" />
+  </g>
+
+  <!-- Clean Paved Parking Courtyard -->
+  <polygon points="150,600 1050,600 1160,800 40,800" fill="#F8FAFC" />
+  <line x1="350" y1="600" x2="260" y2="800" stroke="#CBD5E1" stroke-width="3" />
+  <line x1="600" y1="600" x2="600" y2="800" stroke="#CBD5E1" stroke-width="3" />
+  <line x1="850" y1="600" x2="940" y2="800" stroke="#CBD5E1" stroke-width="3" />
+</svg>

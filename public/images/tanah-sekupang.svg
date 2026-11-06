@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="sekupangDaySky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7DD3FC" />
+      <stop offset="60%" stop-color="#E0F2FE" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+    <linearGradient id="greenHills" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="readyPlot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF3C7" />
+      <stop offset="100%" stop-color="#FDE68A" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#sekupangDaySky)" />
+  <circle cx="920" cy="145" r="140" fill="#FEF08A" opacity="0.85" />
+
+  <!-- Distant Sekupang Coastal Hills -->
+  <path d="M0 410 Q280 310 620 375 T1200 335 L1200 520 L0 520 Z" fill="#6EE7B7" opacity="0.65" />
+  <path d="M0 455 Q380 375 790 430 T1200 405 L1200 560 L0 560 Z" fill="url(#greenHills)" />
+
+  <!-- Estates Meadow Ground -->
+  <rect x="0" y="475" width="1200" height="325" fill="#10B981" />
+
+  <!-- Wide Paved Estate Access Road -->
+  <polygon points="520,475 635,475 410,800 40,800" fill="#64748B" />
+  <line x1="520" y1="475" x2="40" y2="800" stroke="#F8FAFC" stroke-width="6" />
+  <line x1="635" y1="475" x2="410" y2="800" stroke="#F8FAFC" stroke-width="6" />
+  <line x1="578" y1="485" x2="225" y2="800" stroke="#FEF08A" stroke-width="5" stroke-dasharray="24 18" />
+
+  <!-- Highlighted Ready-to-Build Land Plot (Kavling Matang Siap Bangun) -->
+  <polygon points="650,515 1075,515 1165,755 475,755" fill="url(#readyPlot)" stroke="#0F766E" stroke-width="6" stroke-dasharray="18 10" />
+
+  <!-- Corner Boundary Pillars -->
+  <circle cx="650" cy="515" r="10" fill="#0F766E" />
+  <circle cx="1075" cy="515" r="10" fill="#0F766E" />
+  <circle cx="1165" cy="755" r="12" fill="#0F766E" />
+  <circle cx="475" cy="755" r="12" fill="#0F766E" />
+
+  <!-- Architectural Site Grid Inside Plot -->
+  <line x1="785" y1="515" x2="705" y2="755" stroke="#D97706" stroke-width="2" opacity="0.45" />
+  <line x1="935" y1="515" x2="935" y2="755" stroke="#D97706" stroke-width="2" opacity="0.45" />
+  <line x1="585" y1="620" x2="1115" y2="620" stroke="#D97706" stroke-width="2" opacity="0.45" />
+</svg>

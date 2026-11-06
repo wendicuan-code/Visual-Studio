@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="seaDaySky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7DD3FC" />
+      <stop offset="55%" stop-color="#E0F2FE" />
+      <stop offset="100%" stop-color="#FFFBEB" />
+    </linearGradient>
+    <linearGradient id="batamSea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="warmDeck" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bright Sea-View Morning Sky -->
+  <rect width="1200" height="500" fill="url(#seaDaySky)" />
+  <circle cx="650" cy="240" r="95" fill="#FEF08A" opacity="0.85" />
+  <circle cx="650" cy="240" r="160" fill="#FEF9C3" opacity="0.4" />
+
+  <!-- Distant Island Silhouette Across Strait -->
+  <path d="M80 410 L220 392 L380 400 L540 388 L790 402 L1060 390 L1200 405 L1200 420 L0 420 Z" fill="#0369A1" opacity="0.35" />
+
+  <!-- Bright Turquoise Sea Horizon -->
+  <rect x="0" y="415" width="1200" height="175" fill="url(#batamSea)" />
+  <!-- Sun Shimmer on Sea -->
+  <g stroke="#FEF9C3" stroke-linecap="round" opacity="0.8">
+    <line x1="570" y1="435" x2="730" y2="435" stroke-width="5" />
+    <line x1="590" y1="455" x2="710" y2="455" stroke-width="4" />
+    <line x1="550" y1="478" x2="750" y2="478" stroke-width="3.5" />
+    <line x1="605" y1="502" x2="695" y2="502" stroke-width="3" />
+  </g>
+
+  <!-- Balcony Terrace Floor -->
+  <polygon points="0,580 1200,580 1200,800 0,800" fill="url(#warmDeck)" />
+  <!-- Balcony Glass Balustrade -->
+  <rect x="85" y="455" width="1030" height="130" fill="#E0F2FE" opacity="0.32" />
+  <line x1="85" y1="455" x2="1115" y2="455" stroke="#0F766E" stroke-width="6" />
+  <line x1="360" y1="455" x2="360" y2="585" stroke="#94A3B8" stroke-width="4" />
+  <line x1="650" y1="455" x2="650" y2="585" stroke="#94A3B8" stroke-width="4" />
+  <line x1="910" y1="455" x2="910" y2="585" stroke="#94A3B8" stroke-width="4" />
+
+  <!-- Architectural Ceiling & Side Walls Framing the Sea View -->
+  <polygon points="0,0 1200,0 1100,95 100,95" fill="#FFFFFF" />
+  <polygon points="0,0 100,95 100,595 0,685" fill="#F1F5F9" />
+  <polygon points="1200,0 1100,95 1100,595 1200,685" fill="#E2E8F0" />
+  <!-- Recessed Ceiling Accent Line -->
+  <polygon points="135,35 1065,35 1020,72 180,72" fill="#FEF3C7" stroke="#0F766E" stroke-width="2" />
+
+  <!-- Floor-to-Ceiling Sliding Glass Frames -->
+  <rect x="96" y="95" width="10" height="495" fill="#334155" />
+  <rect x="1094" y="95" width="10" height="495" fill="#334155" />
+
+  <!-- Modern Light Linen Sofa & Daybed on Balcony -->
+  <rect x="150" y="615" width="380" height="80" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3" />
+  <rect x="165" y="582" width="110" height="45" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2" />
+  <rect x="285" y="582" width="110" height="45" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2" />
+  <rect x="405" y="588" width="95" height="38" rx="8" fill="#10B981" />
+
+  <!-- Resort Coffee Table & Indoor Tropical Palm -->
+  <rect x="640" y="650" width="240" height="22" rx="6" fill="#B46E33" />
+  <rect x="670" y="672" width="14" height="42" fill="#475569" />
+  <rect x="836" y="672" width="14" height="42" fill="#475569" />
+  <circle cx="1015" cy="575" r="48" fill="#10B981" />
+  <circle cx="1045" cy="595" r="38" fill="#059669" />
+  <rect x="1005" y="615" width="46" height="58" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3" />
+</svg>

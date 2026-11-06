@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="daySky2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#BAE6FD" />
+      <stop offset="60%" stop-color="#F0F9FF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="glassCommercial" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#E0F2FE" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.35" />
+    </linearGradient>
+    <linearGradient id="storefrontWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEF3C7" />
+      <stop offset="100%" stop-color="#FDE68A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Daylight Sky -->
+  <rect width="1200" height="800" fill="url(#daySky2)" />
+  <circle cx="240" cy="130" r="180" fill="#FEF9C3" opacity="0.65" />
+
+  <!-- Sidewalk & Boulevard -->
+  <polygon points="0,585 1200,585 1200,645 0,645" fill="#E2E8F0" />
+  <polygon points="0,645 1200,645 1200,800 0,800" fill="#64748B" />
+  <line x1="0" y1="645" x2="1200" y2="645" stroke="#CBD5E1" stroke-width="6" />
+  <!-- Boulevard Trees -->
+  <circle cx="95" cy="495" r="65" fill="#10B981" />
+  <circle cx="1115" cy="500" r="70" fill="#059669" />
+
+  <!-- 3-Story Modern Shophouse Block (Perspective) -->
+  <!-- Left Wing Facade -->
+  <polygon points="150,150 480,105 480,595 150,595" fill="#FFFFFF" />
+  <!-- Right Wing Perspective Facade -->
+  <polygon points="480,105 1040,185 1040,595 480,595" fill="#F1F5F9" />
+
+  <!-- Emerald & Teak Architectural Crown Fin -->
+  <polygon points="135,140 485,90 1055,172 1055,190 485,112 135,158" fill="#0F766E" />
+  <polygon points="472,92 495,92 495,595 472,595" fill="#FFFFFF" />
+
+  <!-- Floor 3 Ribbon Windows -->
+  <polygon points="180,175 455,138 455,275 180,295" fill="#0F172A" />
+  <polygon points="188,182 447,146 447,268 188,288" fill="url(#glassCommercial)" />
+  <!-- Unit 1 & 2 Right Wing 3rd Floor -->
+  <polygon points="515,142 760,175 760,295 515,275" fill="#0F172A" />
+  <polygon points="523,150 752,182 752,288 523,268" fill="url(#glassCommercial)" />
+  <polygon points="790,180 1010,210 1010,312 790,296" fill="#0F172A" />
+  <polygon points="798,187 1002,216 1002,305 798,290" fill="url(#glassCommercial)" />
+
+  <!-- Floor 2 Ribbon Windows -->
+  <polygon points="180,318 455,298 455,425 180,435" fill="#0F172A" />
+  <polygon points="188,325 447,306 447,418 188,428" fill="url(#glassCommercial)" />
+  <polygon points="515,298 760,318 760,435 515,425" fill="#0F172A" />
+  <polygon points="523,305 752,325 752,428 523,418" fill="url(#glassCommercial)" />
+  <polygon points="790,322 1010,338 1010,442 790,435" fill="#0F172A" />
+  <polygon points="798,329 1002,344 1002,435 798,428" fill="url(#glassCommercial)" />
+
+  <!-- Horizontal Alucobond Canopy Belt -->
+  <polygon points="140,445 485,435 1050,455 1050,472 485,455 140,462" fill="#0F766E" />
+
+  <!-- Ground Floor Double-Height Commercial Showrooms -->
+  <rect x="180" y="472" width="275" height="123" fill="url(#storefrontWarm)" stroke="#CBD5E1" stroke-width="3" />
+  <rect x="515" y="472" width="245" height="123" fill="url(#storefrontWarm)" stroke="#CBD5E1" stroke-width="3" />
+  <rect x="790" y="475" width="220" height="120" fill="url(#storefrontWarm)" stroke="#CBD5E1" stroke-width="3" />
+
+  <!-- Glass Entrance Doors -->
+  <rect x="285" y="495" width="65" height="100" fill="#BAE6FD" stroke="#0284C7" stroke-width="3" />
+  <rect x="605" y="495" width="65" height="100" fill="#BAE6FD" stroke="#0284C7" stroke-width="3" />
+  <rect x="870" y="498" width="60" height="97" fill="#BAE6FD" stroke="#0284C7" stroke-width="3" />
+
+  <!-- Clean Roadway Markings -->
+  <line x1="280" y1="645" x2="180" y2="800" stroke="#F8FAFC" stroke-width="4" stroke-dasharray="18 14" />
+  <line x1="620" y1="645" x2="580" y2="800" stroke="#F8FAFC" stroke-width="4" stroke-dasharray="18 14" />
+  <line x1="940" y1="645" x2="980" y2="800" stroke="#F8FAFC" stroke-width="4" stroke-dasharray="18 14" />
+</svg>
